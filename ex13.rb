@@ -23,3 +23,27 @@ puts "another #{second}"
 puts "Now combining gets.chomp"
 puts "How many total arguments did you make?"
 number = gets.chomp
+
+#If I keep the command used for the first half I error out part way through
+#ruby ex13.rb hotdogs hamburgers fries
+#Your first variable is: hotdogs
+#Your second variable is: hamburgers
+#our third variable is: fries
+#less hotdogs
+#another hamburgers
+#Now combining gets.chomp
+#How many total arguments did you make?
+#ex13.rb:21:in `gets': No such file or directory - hotdogs (Errno::ENOENT)
+#	from ex13.rb:21:in `gets'
+#	from ex13.rb:21:in `<main>'
+
+#butttt if I remove the arguemnts then...
+#ruby ex13.rb
+#Your first variable is:
+#Your second variable is:
+#Your third variable is:
+#less
+#another
+# Now combining gets.chomp
+# How many total arguments did you make?
+# 5

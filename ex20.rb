@@ -16,7 +16,8 @@ end
 current_file = open(input_file)
 
 puts "First let's print the whole file:\n"
-
+#The readline() scans each byte of this file until it finds \n, then stops reading
+#the file to return what it has found so far.
 print_all(current_file)
 
 puts "Now let's rewind, kind of like a tape."
